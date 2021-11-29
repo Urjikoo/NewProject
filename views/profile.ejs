@@ -11,7 +11,7 @@
  <div class="container">
 
     <div class="page-header text-center">
-        
+
         <a href="/logout" class="btn btn-default btn-sm">Logout</a>
     </div>
 
@@ -36,31 +36,33 @@
 
             </div>
         </div> -->
-      
+
           <section class="content">
           <h1> Reverse camera Search</h1>
           <!-- Camera -->
         <main id="camera">
             <!-- Camera sensor -->
             <canvas id="cameraSensor"></canvas>
-            
+
             <!-- The actual camera input-->
             <video id="cameraView" autoplay playsinline></video>
-            
+
             <!-- Camera output -->
             <img src="//:0" alt="" id="camera--output">
             <!-- Camera trigger -->
             <button id="camera--trigger">Snap a picture</button>
         </main>
           </section>
-            <form action="/uploadIt" method="post">
-            <input id="profile" type="file" name="file-to-upload">
-            <button type="submit">submit</button>
 
-    </form>
+            <!-- <form action="/result" enctype="multipart/form-data" method="post">
+              <input type="file" name="file-to-upload">
+              <input type="submit" value="Upload">
+            </form> -->
 
-          </section>
-          
+
+
+
+
 <script src="main.js"></script>
 
 </body>

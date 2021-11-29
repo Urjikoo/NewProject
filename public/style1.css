@@ -1,6 +1,8 @@
 html,
 body {
-  background-image: url("/img/air.jpeg");
+  background-image: url("/img/ampol.jpeg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   margin: 0;
   padding: 0;
   height: 100%;
